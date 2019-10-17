@@ -1,0 +1,23 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+body{
+  background-color: coral;
+  color: blue;
+}
+
+header {
+  padding: 156px 0 100px;
+  background: url(http://hd.wallpaperswide.com/thumbs/windows_xp_original-t2.jpg);
+  background-position: center;
+}
+
+p{
+  color: black;
+}
+
+section {
+  padding: 150px 0;
+}
