@@ -1,0 +1,41 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+body{
+  background-color: coral;
+  color: green;
+  font-family: 'Cute Font', cursive;
+  font-size: 30px !important;
+}
+
+.navbar-brand{
+  font-size:2.5rem;
+}
+
+.class1{
+  tab-size: cover;
+  object-position: center !important;
+  padding: 75px 0 150px 300px;
+}
+
+header{
+  padding: 156px 0 200px;
+  background: url(http://hd.wallpaperswide.com/thumbs/windows_xp_original-t2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+p{
+  color: black;
+}
+
+h2{
+  padding: 0 0 50px;
+}
+
+section {
+  padding: 75px 0 150px 0;
+}

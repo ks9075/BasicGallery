@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>KSH's Page</title>
+
+  <style>
+    #style1{
+      color: white;
+    }
+
+    #style2{
+      padding: 156px 0 200px;
+    }
+
+    #style3{
+      color: yellowgreen;
+      padding: 80px 0 30px;
+    }
+
+    #style4{
+      padding: 70px 0 0;
+    }
+  </style>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!--Goole Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Cute+Font&display=swap" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Kang Seong Hyun</a>
+      <li class="nav-item">
+        <a>Time<span id="time_span"></span></a>
+      </li>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#aboutMe">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <script>
+    timer();
+  
+    function timer(){
+      var currentTime = new Date()
+      var hours = currentTime.getHours()
+      var minutes = currentTime.getMinutes()
+      var sec = currentTime.getSeconds()
+      if (minutes < 10){
+        minutes = "0" + minutes
+      }
+      if (sec < 10){
+        sec = "0" + sec
+      }
+      var t_str = " " + hours + ":" + minutes + ":" + sec + " ";
+      if(hours > 11){
+        t_str += "PM";
+      }
+      else {
+        t_str += "AM";
+      }
+      document.getElementById('time_span').innerHTML = t_str;
+      setTimeout(timer,1000);
+    }
+    </script>
+
+  <header class="bg-primary text-white">
+    <div class="container">
+      <div class="class1">
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="img/coding2.mp4" type="video/mp4" width=1000 alt="">
+        </video>
+      </div>
+    </div>
+    <div class="container h-100">
+      <div class="d-flex h-100 text-center align-items-center">
+        <div class="row text-center text-lg-left w-100 text-white">
+          <div class="col-md-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1352.8422358599791!2d127.44551328877911!3d36.33670820485133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sko!2skr!4v1573718365220!5m2!1sko!2skr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+          </div>
+          <div class="col-md-6">
+            <h1 class="display-3">Welcome!</h1>
+            <h1>This is my portfolio.</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <h1 class="text-center text-lg-left mt-4 mb-0"><b>Thumbnail Gallery</b></h1>
+    <hr class="mt-2 mb-5">
+    <div class="row text-center text-lg-left">
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail" src=img/programmer.jpg alt="">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail" src="img/gametitle.png" alt="">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail" src="img/knight.png" alt="">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail" src="img/unity.png" alt="">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail" src="img/photoshop.jpg" alt="">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail" src="img/visual_studio.png" alt="">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail" src="img/coding.jpg" alt="">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail" src="img/coding2.jpg" alt="">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail" src="img/box.jpg" alt="">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail" src="img/3D.jpg" alt="">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail" src="img/normal.jpg" alt="">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail" src="img/survival_island.png" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <section id="aboutMe">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-7">
+          <h2><b>About me</b></h2>
+          <p><b>I am a programmer that make games.</b></p>
+          <p><b>I am in Woosong university.</b></p>
+          <p><b>I made two games.</b></p>
+        </div>
+        <div class="col-md-5">
+          <img class="img-fluid rounded-circle" src ="img/programmer.jpg" width=350 alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="bg-light">
+    <div class="container">
+      <h2><b>Projects</b></h2>
+      <div class="row">
+        <div class="col-md-7">
+          <img class="img-fluid rounded-circle" src ="img/gametitle.png" width=500 alt="">
+        </div>
+        <div class="col-md-5">
+          <h2 id="style3"><b>바람의 숲</b></h2>
+          <p><b id="style2">I made a game "바람의 숲" with my team in 2019 summer. It is a RPG game. The main goal is killing the boss. This game is made by Unity engine. Flatform is PC. My role is programming.</b></p>
+        </div>
+        <div class="col-md-7" id="style4">
+         <img class="img-fluid rounded-circle" src ="img/gametitle2.png" width=500 alt="">
+        </div>
+        <div class="col-md-5" id="style4">
+          <h2 id="style3"><b>Dungeon Escape</b></h2>
+          <p><b id="style2">This game is a adventure game. You need to find key to open the door. This game is made by Unity engine. Flatform is PC. I made all parts of this game.</b></p>
+          <p><b id="style2">
+            <a href="https://youtu.be/oEIzEA4Yg_I">Video: https://youtu.be/oEIzEA4Yg_I</a>
+          </b></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="bg-primary">
+    <div class="container">
+      <div class="row">
+          <h2><b>Skills</b></h2>
+          <div class="row">
+            <div class="col-md-5">
+             <h2 id="style3"><b>Unity</b></h2>
+             <p><b id="style2">I can make games using Unity.</b></p>
+            </div>
+            <div class="col-md-7">
+              <img class="img-fluid rounded-circle" src ="img/unity.png" width=500 alt="">
+            </div>
+            <div class="col-md-5" id="style4">
+              <h2 id="style3"><b>Photoshop</b></h2>
+              <p><b id="style2">I can make many designs using Photoshop.</b></p>
+            </div>
+            <div class="col-md-7" id="style4">
+              <img class="img-fluid rounded-circle" src ="img/photoshop.jpg" width=400 alt="">
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <img class="img-fluid rounded-circle" src ="img/email.png" width=200 alt="">
+        </div>
+        <div class="col-md-5">
+         <h2><b>Contact</b></h2>
+         <p><b>If you have some messages, please send message to here.</b></p>
+         <p><b>Email: ks9075@naver.com</b></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="js/scrolling-nav.js"></script>
+
+</body>
+
+</html>
